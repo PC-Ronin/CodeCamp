@@ -1,0 +1,77 @@
+/*
+	Russell Dennis
+	Portfolio: Stylesheet
+
+	Color Codes:
+	Grey-50%		#808080
+	Blackboard		#222831
+	Egg White		#ECECEC
+	Dark Blue		#30475E
+	Dark Orange		#F2A365
+	
+	Font-Family:
+
+*/
+
+body { max-width: 1080px; width: 97%; font-size:1.05em; margin: 0 10px; padding: 0 10px; line-height:1.5; 
+background-color: #222831; color: #ececec;}
+ul.f { list-style: none; }
+ul.n { list-style: none; }
+ul.h { list-style: none; }
+p.a { text-indent: 25px; }
+p.b { text-indent: 25px; }
+p.c { text-indent: 25px; }
+p.d { text-indent: 25px; }
+
+iframe { width: 102%; height: 965px; }
+
+h3 { font-weight: bold; }
+h4 { font-weight: bold; }
+
+/* Header Styles */
+.header {background-color: #30475E; color: #ECECEC; }
+
+/* Nav Styles */
+nav { float: right; margin: 2px; }
+nav * { }
+nav a { font-weight: bold; text-decoration: none; }
+nav a:hover {color: #F2A365; }
+
+/*Slideshow Styles*/
+.mySlides { display: none; }
+	* {box-sizing: border-box; }
+	img { vertical-align: middle; width: 100%; }
+.container { position: relative; padding-bottom: 10px; text-align: center; font-size: 22px; }
+a.prev { color: #FFFFFF; font-weight: bold; font-size: 35px; }
+a.next { color: #FFFFFF; font-weight: bold; font-size: 35px; }
+.numbertext { color: #FFFFFF; font-size: 16px; padding: 8px 12px; position: absolute; top: 0; }
+
+/*Image Gallery Styles*/
+.gallery { margin: 10px 50px; }
+.gallery img { transition: 1s; padding: 15px; width: 200px; }
+.gallery img:hover { filter: grayscale(100%); transform: scale(1.1); }
+
+/*Site Index Styles*/
+ul#index { list-style: none; }
+#index a{ text-decoration: none; }
+#index a:hover { font-weight: bold; color: #F2A365; }
+#index li:before { content: ' \2756 '; padding: 8px; }
+
+/* Footer Styles*/
+#copyright { text-align: left; color: #808080; font-size: 85%; }
+#lastUpdate { text-align: right; color: #808080; font-style: italic; font-size: 85%; }
+#siteIndex { text-align: right; color: #808080; font-size: 85%; text-decoration: none; }
+#siteIndex:hover { color: #F2A365; }
+
+/* Picture Styles */
+
+
+ @media only screen and (max-width:600px) {
+	main { float:none; width:100%; }
+	nav { float:none; width:25%; height: 2%; position:static;
+		margin:0 auto;}
+	footer {  }
+ }
+ 
+ @media only screen and (min-width: 600px) {
+	 .mobileNav { display: none !important; }
